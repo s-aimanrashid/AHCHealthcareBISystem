@@ -30,6 +30,7 @@ import DrLabresult from "./components/DrLabresult";
 import DrProfile from "./components/DrProfile";
 
 import CreatePatientAcc from "./components/CreatePatientAcc";
+import FireExtinguisher from "./components/FireExtinguisher";
 function App() {
   /////////////// for create doctor account component//////////////////
   const [doctors, setDoctors] = useState([]);
@@ -122,7 +123,7 @@ function App() {
               path="pharmacyMangement"
               element={<PharmacyMangement></PharmacyMangement>}
             />
-            <Route path="settings" element={<Setting></Setting>} />
+            <Route path="fireextinguishertracker" element={<FireExtinguisher></FireExtinguisher>} />
           </Route>
         </Routes>
       </Router>

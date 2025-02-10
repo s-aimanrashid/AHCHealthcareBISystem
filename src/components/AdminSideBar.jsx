@@ -77,14 +77,14 @@ function AdminSideBar() {
             />
             <span>Lab Results</span>
           </NavLink>
-          <NavLink to="/settings" className="nav-link">
+          <NavLink to="/fireextinguishertracker" className="nav-link">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd0d4d6462b786c63660a0324fe8b68d2ba8d83527976c2aee3a87424bfc3aa0?apiKey=25b957d3db53419f881a9efe72b830ae&"
               className="icon"
               alt="Icon"
             />
-            <span>Settings</span>
+            <span>FireExt Tracker</span>
           </NavLink>
         </nav>
       </aside>
